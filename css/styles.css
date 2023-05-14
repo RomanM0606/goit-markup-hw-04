@@ -56,6 +56,7 @@ img {
 /*================ header ====================*/
 .top-header {
   border-bottom: 1px solid #E7E9FC;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .top-header-container {
@@ -305,6 +306,14 @@ img {
   border-radius: 50%;
 }
 
+.social-list-link:hover {
+  background-color: #404BBF;
+}
+
+.social-list-link:focus {
+  background-color: #404BBF;
+}
+
 .customers {
   padding-top: 120px;
   padding-bottom: 120px;
@@ -323,17 +332,35 @@ img {
 
 .customers-list {
   display: flex;
-  column-gap: 24px;
-  justify-content: center;
+  gap: 24px;
 }
 
 .customer-item-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 168px;
   height: 88px;
   background-color: #FFFFFF;
   border: 1px solid #8E8F99;
   border-radius: 4px;
   padding: 16px 32px;
+}
+
+.customer-item-icon:hover {
+  border: 1px solid #404BBF;
+}
+
+.customer-item-icon:focus {
+  border: 1px solid #404BBF;
+}
+
+.customer-icon:hover {
+  color: #404BBF;
+}
+
+.customer-icon:focus {
+  color: #404BBF;
 }
 
 
@@ -398,6 +425,24 @@ margin-bottom: 16px;
 .social-list-footer {
   display: flex;
   column-gap: 16px;
+}
+
+.social-list-link-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background-color: #4D5AE5;
+  border-radius: 50%;
+}
+
+.social-list-link-footer:hover {
+  background-color: #31D0AA;
+}
+
+.social-list-link-footer:focus {
+  background-color: #31D0AA;
 }
 
 /*========== portfolio =========*/
