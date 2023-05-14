@@ -346,7 +346,7 @@ img {
 }
 
 .customer-list-item {
-  width: calc((100%-120px)/6);
+  width: calc((100% - 120px) / 6);
   height: 88px;
 }
 
